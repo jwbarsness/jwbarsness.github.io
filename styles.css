@@ -1,0 +1,215 @@
+/* ===== GLOBAL ===== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(180deg, #1a1a1a, #0f0f0f);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-weight: normal;
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.tagline {
+    color: #888;
+    font-size: 1.1rem;
+}
+
+/* ===== PROJECT GRID ===== */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 40px;
+}
+
+/* ===== PROJECT CARD ===== */
+.card {
+    background: #1a1a1a;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin: 0 0 10px;
+}
+
+.card-content p {
+    margin: 0 0 10px;
+    color: #bbb;
+}
+
+.tech {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+/* ===== ABOUT SECTION ===== */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #141414;
+}
+
+.about h2 {
+    margin-bottom: 15px;
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.skills li {
+    margin: 8px 0;
+    color: #ccc;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0a0a0a;
+    color: #777;
+}
+
+footer a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* ===== NAV ===== */
+.nav {
+    padding: 20px;
+}
+
+.nav a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+/* ===== PROJECT HEADER ===== */
+.project-header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hook {
+    color: #bbb;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* ===== VIDEO ===== */
+.video-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.video-section video {
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* ===== INFO ===== */
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    color: #ccc;
+}
+
+/* ===== SECTIONS ===== */
+.section {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+.section h2 {
+    margin-bottom: 15px;
+}
+
+/* ===== HIGHLIGHT ===== */
+.highlight {
+    background: #1a1a1a;
+    border-radius: 10px;
+}
+
+/* ===== GALLERY ===== */
+.gallery {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+/* ===== MEDIA SECTION (IMAGE OR VIDEO) ===== */
+.media-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.media-section img {
+    width: 80%;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+.caption {
+    text-align: center;
+    color: #888;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
